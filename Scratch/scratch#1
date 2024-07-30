@@ -1,0 +1,17 @@
+dict = {
+    'meow':[1,2,3],
+    "moo":["sound of cows","lavash kiri"],
+    (1,2):"amazing tuple",
+    69: "an intresting number",
+    6.9:('byekhud float?',),
+    
+}
+
+
+for key in dict.keys():
+    print(type(key),type(dict[key]),sep="--->>>")
+    
+for values in dict.values():
+    print(values)
+    
+
