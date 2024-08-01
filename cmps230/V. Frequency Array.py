@@ -10,9 +10,9 @@ def frequency_array(N, M, inputList):
     for i in range(1, M + 1):
         print(freq[i])
 
-# Read input using standard input
+# Read input
 N, M = map(int, input().split())
-inputList = [int(input()) for _ in range(N)]
+inputList = list(map(int, input().split()))
 
 # Solve the problem
 frequency_array(N, M, inputList)
